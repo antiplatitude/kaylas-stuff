@@ -1,9 +1,12 @@
-# Fabric Example Mod
+# Kayla's Stuff
+A Minecraft mod for version 1.18.2 adding stuff that Kayla likes.
 
-## Setup
+## Contributing
+TODO
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Bug Reports
+Please report all encountered bugs as an [issue](https://github.com/antiplatitude/kaylas-stuff/issues)
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This project is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). See the LICENSE file.
