@@ -16,6 +16,7 @@
 
 package com.antiplatitude.kaylas.stuff;
 
+import com.antiplatitude.kaylas.stuff.common.blocks.KSBlocks;
 import com.antiplatitude.kaylas.stuff.common.items.KSItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
@@ -35,5 +36,6 @@ public class KaylasStuff implements ModInitializer
     public void onInitialize()
     {
         KSItems.registerItems();
+        KSBlocks.registerBlocks();
     }
 }

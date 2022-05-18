@@ -39,7 +39,7 @@ public class KSItems
     public static final Item WOOD_BEAD = registerItem("wood_bead", new Item(MACRAME_SETTINGS));
 
     /**
-     * Registers a new item.
+     * Registers a new Item.
      *
      * @param name The String appended to "kaylasstuff:" used to identify this item
      * @param item Instance of Item with settings added
