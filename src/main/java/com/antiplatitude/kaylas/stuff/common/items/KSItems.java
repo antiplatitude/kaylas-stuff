@@ -35,6 +35,8 @@ public class KSItems
 
     // Items
     public static final Item MACRAME_CORD = registerItem("macrame_cord", new Item(MACRAME_SETTINGS));
+    public static final Item WOOD_RING = registerItem("wood_ring", new Item(MACRAME_SETTINGS));
+    public static final Item WOOD_BEAD = registerItem("wood_bead", new Item(MACRAME_SETTINGS));
 
     /**
      * Registers a new item.
