@@ -36,7 +36,7 @@ public class KSBlocks
             "stripped_magnolia_wood", new PillarBlock(FabricBlockSettings.copy(MAGNOLIA_WOOD)),
             ItemGroup.BUILDING_BLOCKS);
     public static final Block MAGNOLIA_LEAVES = registerBlock(
-            "magnolia_leaves", createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.BUILDING_BLOCKS);
+            "magnolia_leaves", createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
     public static final Block MAGNOLIA_DOOR = registerBlock(
             "magnolia_door", new DoorBlock(
                     FabricBlockSettings.of(Material.WOOD, MAGNOLIA_PLANKS.getDefaultMapColor()).strength(3.0F)
