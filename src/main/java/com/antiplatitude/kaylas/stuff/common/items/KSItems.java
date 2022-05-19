@@ -30,7 +30,9 @@ import net.minecraft.util.registry.Registry;
  */
 public class KSItems
 {
-    /** Default settings for macrame items, placing them in the macrame tab TODO */
+    /**
+     * Default settings for macrame items, placing them in the macrame tab TODO
+     */
     public static final FabricItemSettings MACRAME_SETTINGS = new FabricItemSettings().group(ItemGroup.MISC);
 
     // Items
@@ -43,6 +45,7 @@ public class KSItems
      *
      * @param name The String appended to "kaylasstuff:" used to identify this item
      * @param item Instance of Item with settings added
+     *
      * @return The newly created Item
      */
     private static Item registerItem(String name, Item item)
