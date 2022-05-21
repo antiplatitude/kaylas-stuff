@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kaylasstuff:block/stripped_magnolia_log_top",
+    "side": "kaylasstuff:block/stripped_magnolia_log"
+  }
+}

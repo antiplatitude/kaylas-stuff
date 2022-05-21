@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "kaylasstuff:block/magnolia_door_top",
+    "bottom": "kaylasstuff:block/magnolia_door_bottom"
+  }
+}

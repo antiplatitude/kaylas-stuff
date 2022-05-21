@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kaylasstuff:block/magnolia_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kaylasstuff:block/magnolia_log"
+    },
+    "axis=z": {
+      "model": "kaylasstuff:block/magnolia_log_horizontal",
+      "x": 90
+    }
+  }
+}

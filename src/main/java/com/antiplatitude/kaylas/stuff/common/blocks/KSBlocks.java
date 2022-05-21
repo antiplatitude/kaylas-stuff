@@ -79,7 +79,7 @@ public class KSBlocks
      */
     private static PillarBlock createLogBlock(MapColor topMapColor, MapColor sideMapColor)
     {
-        return new PillarBlock(AbstractBlock.Settings.of(Material.WOOD, (state) -> {
+        return new PillarBlock(FabricBlockSettings.of(Material.WOOD, (state) -> {
             return state.get(PillarBlock.AXIS) == Direction.Axis.Y ? topMapColor : sideMapColor;
         }).strength(2.0F).sounds(BlockSoundGroup.WOOD));
     }

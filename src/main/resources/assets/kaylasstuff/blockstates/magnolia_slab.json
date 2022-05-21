@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaylasstuff:block/magnolia_slab"
+    },
+    "type=double": {
+      "model": "kaylasstuff:block/magnolia_planks"
+    },
+    "type=top": {
+      "model": "kaylasstuff:block/magnolia_slab_top"
+    }
+  }
+}
