@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "kaylasstuff.mixins.json"
   ],
 
   "depends": {

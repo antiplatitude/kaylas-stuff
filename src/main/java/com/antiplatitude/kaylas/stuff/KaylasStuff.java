@@ -16,8 +16,8 @@
 
 package com.antiplatitude.kaylas.stuff;
 
-import com.antiplatitude.kaylas.stuff.common.blocks.KSBlocks;
-import com.antiplatitude.kaylas.stuff.common.items.KSItems;
+import com.antiplatitude.kaylas.stuff.block.KSBlocks;
+import com.antiplatitude.kaylas.stuff.item.KSItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

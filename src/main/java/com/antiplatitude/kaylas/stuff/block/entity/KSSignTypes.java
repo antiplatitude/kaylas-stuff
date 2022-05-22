@@ -14,27 +14,17 @@
  * limitations under the License.
  */
 
-package com.antiplatitude.kaylas.stuff.mixin;
+package com.antiplatitude.kaylas.stuff.block.entity;
 
+import com.antiplatitude.kaylas.stuff.mixin.SignTypeAccessor;
 import net.minecraft.util.SignType;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.gen.Invoker;
 
 /**
- * For creating new sign types. Borrowed from https://github.com/nyuppo/fabric-sign-example under GPL-3.0
+ * Kayla's Stuff sign types.
+ *
+ * @author Antiplatitude
  */
-@Mixin(SignType.class)
-public interface SignTypeAccessor
+public class KSSignTypes
 {
-    @Invoker("<init>")
-    static SignType newSignType(String name)
-    {
-        throw new AssertionError();
-    }
-
-    @Invoker("register")
-    static SignType registerNew(SignType type)
-    {
-        throw new AssertionError();
-    }
+    public static final SignType MAGNOLIA = SignTypeAccessor.registerNew(SignTypeAccessor.newSignType("magnolia"));
 }

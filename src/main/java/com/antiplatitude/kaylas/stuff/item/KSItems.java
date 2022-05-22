@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package com.antiplatitude.kaylas.stuff.common.items;
+package com.antiplatitude.kaylas.stuff.item;
 
 import com.antiplatitude.kaylas.stuff.KaylasStuff;
+import com.antiplatitude.kaylas.stuff.block.KSBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SignItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -37,8 +39,14 @@ public class KSItems
 
     // Items
     public static final Item MACRAME_CORD = registerItem("macrame_cord", new Item(MACRAME_SETTINGS));
+
     public static final Item WOOD_RING = registerItem("wood_ring", new Item(MACRAME_SETTINGS));
+
     public static final Item WOOD_BEAD = registerItem("wood_bead", new Item(MACRAME_SETTINGS));
+
+    public static final Item MAGNOLIA_SIGN = registerItem("magnolia_sign", new SignItem(
+            new FabricItemSettings().group(ItemGroup.DECORATIONS).maxCount(16),
+            KSBlocks.MAGNOLIA_SIGN_BLOCK, KSBlocks.MAGNOLIA_WALL_SIGN_BLOCK));
 
     /**
      * Registers a new Item.
