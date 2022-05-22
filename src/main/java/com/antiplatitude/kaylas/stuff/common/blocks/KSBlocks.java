@@ -20,9 +20,10 @@ public class KSBlocks
 {
     // Blocks
     // TODO map colors temporarily set to those of oak logs
-    public static final Block MAGNOLIA_LOG = registerBlock("magnolia_log",
-                                                           createLogBlock(MapColor.OAK_TAN, MapColor.SPRUCE_BROWN),
-                                                           ItemGroup.BUILDING_BLOCKS);
+    public static final Block MAGNOLIA_LOG = registerBlock(
+            "magnolia_log",
+            createLogBlock(MapColor.OAK_TAN, MapColor.SPRUCE_BROWN),
+            ItemGroup.BUILDING_BLOCKS);
     public static final Block MAGNOLIA_PLANKS = registerBlock(
             "magnolia_planks", new Block(FabricBlockSettings.of(Material.WOOD, MapColor.OAK_TAN).strength(2.0F, 3.0F)
                                                             .sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
@@ -42,8 +43,9 @@ public class KSBlocks
                     FabricBlockSettings.of(Material.WOOD, MAGNOLIA_PLANKS.getDefaultMapColor()).strength(3.0F)
                                        .sounds(BlockSoundGroup.WOOD).nonOpaque()), ItemGroup.REDSTONE);
     public static final Block MAGNOLIA_STAIRS = registerBlock(
-            "magnolia_stairs", new StairsBlock(MAGNOLIA_PLANKS.getDefaultState(),
-                                               FabricBlockSettings.copy(MAGNOLIA_PLANKS)), ItemGroup.BUILDING_BLOCKS);
+            "magnolia_stairs", new StairsBlock(
+                    MAGNOLIA_PLANKS.getDefaultState(),
+                    FabricBlockSettings.copy(MAGNOLIA_PLANKS)), ItemGroup.BUILDING_BLOCKS);
     // TODO figure out signs
     public static final Block MAGNOLIA_PRESSURE_PLATE = registerBlock(
             "magnolia_pressure_plate", new PressurePlateBlock(
