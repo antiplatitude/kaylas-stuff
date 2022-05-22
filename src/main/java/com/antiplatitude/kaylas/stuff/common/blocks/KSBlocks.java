@@ -95,7 +95,7 @@ public class KSBlocks
     private static LeavesBlock createLeavesBlock(BlockSoundGroup soundGroup)
     {
         return new LeavesBlock(
-                FabricBlockSettings.copy(Blocks.OAK_LEAVES));
+                FabricBlockSettings.copy(Blocks.OAK_LEAVES).sounds(soundGroup));
     }
 
     /**
